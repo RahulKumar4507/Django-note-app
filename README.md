@@ -51,8 +51,6 @@ It contains project settings (no secrets exposed).
 
 ## 🌟 Features
 - Create, edit, and delete notes
-- Beginner-friendly setup
-- Docker & non-Docker support
 - Ready for deployment with Nginx
 
 ---
