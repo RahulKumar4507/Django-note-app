@@ -1,26 +1,26 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Python cache files (not needed)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# ignore .vscode folder
-.vscode
+# Virtual environment folders (everyone creates their own)
+venv/
+ENV/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-/build
-
-# misc
+# OS generated files
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+Thumbs.db
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Logs
+*.log
+
+# SQLite database (local only, not needed for fresh setup)
+db.sqlite3
+
+# Collected static files (can be re-created with collectstatic)
+staticfiles/
+
+# Temporary files
+*.swp
+
